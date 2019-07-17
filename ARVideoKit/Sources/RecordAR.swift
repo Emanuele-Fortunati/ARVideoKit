@@ -58,7 +58,7 @@ import PhotosUI
     /**
      An object that allow customizing the video frame per second rate. Default is `.auto`.
      */
-    @objc public var fps: ARVideoFrameRate = .auto
+    @objc public var fps: ARVideoFrameRate = .fps60
     /**
      An object that allow customizing the video orientation. Default is `.auto`.
      */
@@ -66,7 +66,7 @@ import PhotosUI
     /**
      An object that allow customizing the AR content mode. Default is `.auto`.
      */
-    @objc public var contentMode: ARFrameMode = .auto
+    @objc public var contentMode: ARFrameMode = .aspectFill
     /**
      A boolean that enables or disables AR content rendering before recording for image & video processing. Default is `true`.
      */
